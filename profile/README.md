@@ -29,11 +29,8 @@ legacy gather + atsu.ko        ─┴─► Kafka ─┬─► summarizer ─►
 | Repo | What |
 |------|------|
 | [traceout](https://github.com/atsu/traceout) | Go library for Linux ftrace (fork of google/traceout) |
-| [bpfd](https://github.com/atsu/bpfd) | BPF programs with rules, run as a container-aware daemon |
-| [kubeyaml](https://github.com/atsu/kubeyaml) | Validate Kubernetes YAML against the OpenAPI schema |
-| [k8slynter](https://github.com/atsu/k8slynter) | Kubernetes YAML linting |
-| [cprepo](https://github.com/atsu/cprepo) | GitHub Action: copy a file into another repo via PR |
-| [rpmbuilder](https://github.com/atsu/rpmbuilder) | Docker image for building RPMs |
-| [gotty](https://github.com/atsu/gotty) | Share a terminal as a web app (fork) |
+| [cprepo](https://github.com/atsu/cprepo) | GitHub Action: copy a file into another repo via PR *(archived)* |
+| [k8slynter](https://github.com/atsu/k8slynter) | GitHub Action for Kubernetes YAML linting *(archived)* |
+| [rpmbuilder](https://github.com/atsu/rpmbuilder) | Docker image for building RPMs *(archived)* |
 
 Core platform repos (`gather`, `kernel`, `goat`, `gator`, `health`, `queuepred`, …) are private.
